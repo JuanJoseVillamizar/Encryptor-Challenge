@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --principal-font-family:"Inter", sans-serif;
+    --principal-color: #0A3871;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Mobile first */
+.container{
+    padding: 4%;
+    font-family: var(--principal-font-family);
+}
+.header{
+    padding: 5%;
+}
+.hero-input{
+    border: none;
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: var(--principal-font-family);
+}
+.hero-input,.hero-input::placeholder{
+    color: var(--principal-color);
+    font-weight: 400;
+    font-size: 2rem;
+}
+.hero-advertising{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.hero-advertising-text{
+    color:#495057;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+.hero-advertising-icon{
+color: #65747D;
+}
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.hero-buttons button {
+    border-radius: 24px;
+    padding: 24px;
+    font-family: var(--principal-font-family);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.buttons-encrypt{
+    background-color: var(--principal-color);
+    color: #ffffff;
+    border: none;
+}
+.buttons-decrypt{
+    border: 1px solid var(--principal-color);
+    background-color: #ffffff;;
+    color: var(--principal-color);
+}
+.hero-text{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3.5rem;
+    border-radius: 32px;
+    padding: 32px;
+    gap:1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.hero-text-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#343A40;
+}
+.hero-text-message{
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 20px 0; 
+}
+footer .copy {
+    color: #343A40;
+}
+footer ul {
+    align-items: flex-start;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer ul li a{
+    color: var(--principal-color);
+}
